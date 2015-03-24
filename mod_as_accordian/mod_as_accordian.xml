@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0" client="site" method="upgrade">
+    <name>AS Accordian</name>
+    <author>Asep Setyawan</author>
+    <version>1.0</version>
+    <description>A Simple Accordian module, use jQuery</description>
+    <files>
+        <filename>mod_as_accordian.xml</filename>
+        <filename module="AS Accordian">mod_as_accordian.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>assets</folder>
+        <folder>tmpl</folder>
+    </files>
+    <config>
+    	<fields name="params">
+    		<fieldset name="basic">
+    			<field
+    			name="moduleclass_sfx"
+    			type="text"
+    			default=""
+    			label="Module Class Suffix"
+    			description="css class into the module">
+    			</field>
+    			<field name="accordian_title1" type="text" default="" label="Accordian Title" description="Title for accordian 1"></field>
+    			<field name="accordian_content1" height="20px" type="textarea" default="" label="Accordian Content" description="Content for Accordian 1"></field>
+    			<field name="accordian_title2" type="text" default="" label="Accordian Title" description="Title for accordian 2"></field>
+    			<field name="accordian_content2" type="textarea" default="" label="Accordian Content" description="Content for Accordian 2" height="20"></field>
+    			<field name="accordian_title3" type="text" default="" label="Accordian Title" description="Title for accordian 3"></field>
+    			<field name="accordian_content3" type="textarea" default="" label="Accordian Content" description="Content for Accordian 3" height="20"></field>
+    			
+    		</fieldset>
+    	</fields>
+    		
+    </config>
+    </extension>
