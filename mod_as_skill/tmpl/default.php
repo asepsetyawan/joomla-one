@@ -18,3 +18,9 @@ defined('_JEXEC')or die;
 				<div class="progress-bar progress-bar-primary" role="progressbar" data-width="<?php echo $percentase4;?>" style="width: <?php echo $percentase4;?>%;"><?php echo $percentase4;?>%</div>
 			</div>
 </div>
+
+<?php
+$document= JFactory:: getDocument();
+$document->addStyleSheet('/module/mod_as_skill/assets/style.css');
+
+?>
