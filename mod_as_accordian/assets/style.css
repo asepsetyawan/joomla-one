@@ -1,0 +1,21 @@
+/* untuk style panel yang active */
+.panel-default > .panel-heading.active {
+  background: #73C7F9;
+  color: #fff;
+  border-radius: 0px;
+}
+
+/*untuk style title*/
+.column-title {
+  margin-bottom: 30px;
+  padding: 0px 0px 10px;
+  border-bottom: 2px solid #E4E4E4;
+}
+.column-title:after {
+  content: "";
+  top: 56px;
+  left: 13px;
+  position: absolute;
+  border-bottom: 2px solid #93D5FF;
+  width: 35%;
+}
