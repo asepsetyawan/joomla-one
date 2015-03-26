@@ -50,6 +50,7 @@ defined('_JEXEC')or die;
 </div>
 <?php
 $document = JFactory::getDocument();
+$document->addStyleSheet('modules/mod_as_accordian/assets/style.css');
 $document->addScript('modules/mod_as_accordian/assets/jquery-1.11.2.js');
 ?>
 <script type="text/javascript">
