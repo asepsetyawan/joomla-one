@@ -53,13 +53,13 @@ $document = JFactory::getDocument();
 $document->addScript('modules/mod_as_accordian/assets/jquery-1.11.2.js');
 ?>
 <script type="text/javascript">
-jQuery.noConflict();
-$('.panel-title')
+$j=jQuery.noConflict();
+$j('.panel-title')
 .on('click',function(){
-	$(this).closest('#accordion').children().each(function(){
-		$(this).find('.panel-heading').removeClass('active');
+	$j(this).closest('#accordion').children().each(function(){
+		$j(this).find('.panel-heading').removeClass('active');
 	});
-	$(this).closest('.panel-heading').toggleClass('active');
+	$j(this).closest('.panel-heading').toggleClass('active');
 });
 </script>
 </div>
