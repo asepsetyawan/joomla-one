@@ -1,6 +1,6 @@
 <?php
 /**
- * AS Accordian
+ * AS Skill
  * 
  * @package    AS.Module
  * @subpackage Modules
