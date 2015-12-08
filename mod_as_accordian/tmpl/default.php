@@ -2,9 +2,11 @@
 // no direct access
 defined('_JEXEC')or die;
 ?>
-			<h3 class="column-title"><?php echo $module->title; ?></h3>
-			<div class="accordian">
-				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+<h3 class="column-title"><?php echo $module->title; ?></h3>
+   <div class="accordian">
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
 <div class="panel panel-default">
     <div class="panel-heading active" role="tab" id="headingOne">
       <h4 class="panel-title">
